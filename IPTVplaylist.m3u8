@@ -25,15 +25,15 @@ http://87.246.54.249:8085/Viju_Comedy/index.m3u8
 http://87.246.54.249:8085/Viju_Megahit/index.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://iptvx.one/picons/vip-premiere.png" group-title="Кино и сериалы",Viju+ premiere HD
 http://87.246.54.249:8085/Viju_Premiere/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,КиноХит
+#EXTINF:-1 group-title="Кино и сериалы"  ,КиноХит
 http://api.peers.tv/timeshift/kinohit/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Кинокомедия
+#EXTINF:-1 group-title="Кино и сериалы"  ,Кинокомедия
 http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Киномикс
+#EXTINF:-1 group-title="Кино и сериалы"  ,Киномикс
 http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Киносвидание
+#EXTINF:-1 group-title="Кино и сериалы"  ,Киносвидание
 http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Киносемья
+#EXTINF:-1 group-title="Кино и сериалы"  ,Киносемья
 http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
 
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews HD
