@@ -1,0 +1,64 @@
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
+#PLAYLIST:IPTVplaylist
+
+#EXTINF:-1 tvg-id="bridge-tv" tvg-logo="https://iptvx.one/picons/bridge-tv.png" group-title="Музыкальные",Bridge
+http://195.26.83.96:7007/play/a00m/index.m3u8
+#EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" group-title="Музыкальные",Bridge Classic
+http://31.210.208.171:8080/bridge/index.m3u8?token=+W2MSER
+#EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe
+#EXTINF:-1 tvg-id="bridge-tv-dance" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" group-title="Музыкальные",Bridge Hits
+http://178.212.71.253:8000/play/134/index.m3u8
+#EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock
+http://31.210.208.171:8080/bridge_rock/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Музыкальные",Polsat Music
+http://103.49.40.100:27014/POLSATMUSICHD
+#EXTINF:-1 tvg-id="4fun" tvg-logo="https://iptvx.one/picons/4fun.png" group-title="Музыкальные",4FUN TV (Polska)
+https://stream.4fun.tv:8888/hls/4f.m3u8
+
+#EXTINF:-1 tvg-id="tv1000" tvg-logo="https://iptvx.one/picons/tv1000.png" group-title="Кино и сериалы",Viju TV1000
+http://178.217.72.66:8080/TV_1000/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="tv1000-action" tvg-logo="https://iptvx.one/picons/tv1000-action.png" group-title="Кино и сериалы",Viju TV1000 Action
+http://178.217.72.66:8080/TV_1000_Action/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://iptvx.one/picons/vip-comedy.png" group-title="Кино и сериалы",Viju+ comedy HD
+http://87.246.54.249:8085/Viju_Comedy/index.m3u8
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="Кино и сериалы",Viju+ megahit HD
+http://87.246.54.249:8085/Viju_Megahit/index.m3u8
+#EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://iptvx.one/picons/vip-premiere.png" group-title="Кино и сериалы",Viju+ premiere HD
+http://87.246.54.249:8085/Viju_Premiere/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,КиноХит
+http://api.peers.tv/timeshift/kinohit/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Кинокомедия
+http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Киномикс
+http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Киносвидание
+http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы"  ,Киносемья
+http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI4NzA2ODUsImlhdCI6MTc2Mjc4NDI4NSwiY2lkIjo2LCJ1aWQiOjk2MzY2MDYxMCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.9mFnuzIcm8-YoC-x838q28ID9zDOoZU0-eRI0PXBZpg&offset=10
+
+#EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews HD
+https://www.youtube.com/euronewsru/live
+
+#EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://iptvx.one/picons/eurosport1.png" group-title="Спортивные",Eurosport 1 HD
+http://176.96.241.40/Eurosport1/index.m3u8
+#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://iptvx.one/picons/eurosport2.png" group-title="Спортивные",Eurosport 2 HD
+http://158.160.149.81:8080/2587/index.m3u8
+#EXTINF:-1 group-title="Спортивные",Eurosport 1 HD
+http://195.64.140.147:10114/114
+#EXTINF:-1 group-title="Спортивные",Eurosport 2 HD
+http://195.64.140.147:10115/115
+#EXTINF:-1 group-title="Спортивные",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.com
+
+#EXTINF:-1 tvg-id="animal-planet-eu" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" group-title="Познавательные",Animal Planet HD
+http://176.96.241.40/AnimalPlanet/index.m3u8
+#EXTINF:-1 tvg-id="discovery-channel" tvg-logo="https://iptvx.one/picons/discovery-channel.png" group-title="Познавательные",Discovery HD
+http://158.160.149.81:8080/3465/index.m3u8
+#EXTINF:-1 group-title="Познавательные",DISCOVERY HD
+http://195.64.140.147:10151/151
+#EXTINF:-1 group-title="Познавательные",Animal Planet HD
+http://94.232.127.28:8080/animalplanethd/index.m3u8
+#EXTINF:-1 group-title="Познавательные",Animal Planet RU/BG/EN
+http://84.54.128.52:9090/play/6009/index.m3u8
+#EXTINF:-1 group-title="Познавательные",Discovery Science
+http://46.8.46.14/DiscoveryScience/index.m3u8
