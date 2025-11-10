@@ -39,26 +39,26 @@ http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiI
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews HD
 https://www.youtube.com/euronewsru/live
 
-#EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://iptvx.one/picons/eurosport1.png" group-title="Спортивные",Eurosport 1 HD
+#EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://iptvx.one/picons/eurosport1.png" group-title="Спортивные",Eurosport 1
 http://176.96.241.40/Eurosport1/index.m3u8
-#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://iptvx.one/picons/eurosport2.png" group-title="Спортивные",Eurosport 2 HD
+#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://iptvx.one/picons/eurosport2.png" group-title="Спортивные",Eurosport 2
 http://158.160.149.81:8080/2587/index.m3u8
-#EXTINF:-1 group-title="Спортивные",Eurosport 1 HD
+#EXTINF:-1 tvg-id="eurosport1hd" group-title="Спортивные",Eurosport 1 HD
 http://195.64.140.147:10114/114
-#EXTINF:-1 group-title="Спортивные",Eurosport 2 HD
+#EXTINF:-1 tvg-id="eurosport2hd" group-title="Спортивные",Eurosport 2 HD
 http://195.64.140.147:10115/115
-#EXTINF:-1 group-title="Спортивные",Red Bull TV
+#EXTINF:-1 tvg-id="redbull" group-title="Спортивные",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.com
 
 #EXTINF:-1 tvg-id="animal-planet-eu" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" group-title="Познавательные",Animal Planet HD
 http://176.96.241.40/AnimalPlanet/index.m3u8
 #EXTINF:-1 tvg-id="discovery-channel" tvg-logo="https://iptvx.one/picons/discovery-channel.png" group-title="Познавательные",Discovery HD
 http://158.160.149.81:8080/3465/index.m3u8
-#EXTINF:-1 group-title="Познавательные",DISCOVERY HD
+#EXTINF:-1 tvg-id="discovery" group-title="Познавательные",DISCOVERY  HD
 http://195.64.140.147:10151/151
-#EXTINF:-1 group-title="Познавательные",Animal Planet HD
+#EXTINF:-1 tvg-id="animal-planet-hd" group-title="Познавательные",Animal Planet  HD
 http://94.232.127.28:8080/animalplanethd/index.m3u8
-#EXTINF:-1 group-title="Познавательные",Animal Planet RU/BG/EN
+#EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные",Animal Planet RU/BG/EN
 http://84.54.128.52:9090/play/6009/index.m3u8
-#EXTINF:-1 group-title="Познавательные",Discovery Science
+#EXTINF:-1 tvg-id="discovery science" group-title="Познавательные",Discovery Science
 http://46.8.46.14/DiscoveryScience/index.m3u8
